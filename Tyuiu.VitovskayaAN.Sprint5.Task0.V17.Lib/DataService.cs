@@ -7,7 +7,7 @@ namespace Tyuiu.VitovskayaAN.Sprint5.Task0.V17.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
+            string path = Path.GetTempFileName();
 
             double res = 2.4 * Math.Pow(x, 3) + 0.4 * Math.Pow(x, 2) - 1.4 * x + 4.1;
 
